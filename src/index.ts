@@ -198,3 +198,5 @@ export default class ZebraBrowserPrintWrapper {
     }
   };
 }
+
+module.exports = ZebraBrowserPrintWrapper;
