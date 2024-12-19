@@ -2,7 +2,7 @@ import { API_URL } from './constants';
 
 import { Device } from './types';
 
-export default class ZebraBrowserPrintWrapper {
+class ZebraBrowserPrintWrapper {
   device: Device = {} as Device;
 
   getAvailablePrinters = async () => {
